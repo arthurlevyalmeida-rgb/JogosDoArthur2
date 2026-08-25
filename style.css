@@ -1,0 +1,42 @@
+:root{
+    --cor-primaria:  #1a1a88;
+    --cor-secundaria: #5151f1;
+    --cor-de-fundo: white;
+    --cor-contraste: white;
+    --cor-botao: white;
+}
+
+.tema-escuro {
+    --cor-primaria:  #5151f1;
+    --cor-secundaria: #1a1a88;
+    --cor-de-fundo: black;
+    --cor-contraste: black;
+    --cor-botao: #37375b;
+}
+
+body{
+    max-width: 100vw;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-contraste);
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    width: 650px;
+    height: 400px;
+}
+
+.btn-tema-escuro {
+
+}
